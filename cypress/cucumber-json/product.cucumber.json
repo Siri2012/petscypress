@@ -1,0 +1,164 @@
+[
+  {
+    "description": "    Feature Description",
+    "keyword": "Feature",
+    "name": "select and order a product",
+    "line": 1,
+    "id": "select-and-order-a-product",
+    "tags": [],
+    "uri": "product.feature",
+    "elements": [
+      {
+        "id": "select-and-order-a-product;order-a-laptop",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Order a Laptop",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I was on DemoBlaze site",
+            "result": {
+              "status": "passed",
+              "duration": 1316000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I select Laptops from menu",
+            "result": {
+              "status": "passed",
+              "duration": 204000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should see MacBook air",
+            "result": {
+              "status": "passed",
+              "duration": 715000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I click on MacBook air link",
+            "result": {
+              "status": "passed",
+              "duration": 576000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should see Product page",
+            "result": {
+              "status": "passed",
+              "duration": 782000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I click on Add to Cart button",
+            "result": {
+              "status": "passed",
+              "duration": 223000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should see an alert and select OK",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I click on Cart link",
+            "result": {
+              "status": "passed",
+              "duration": 1048000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I should see cart items",
+            "result": {
+              "status": "passed",
+              "duration": 61000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I click on Place Order button",
+            "result": {
+              "status": "passed",
+              "duration": 202000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I should see Place Order details screen",
+            "result": {
+              "status": "passed",
+              "duration": 449000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I fill details and click on Purchase button",
+            "result": {
+              "status": "passed",
+              "duration": 2119000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I should see Thank you for your purchase dialogue box",
+            "result": {
+              "status": "passed",
+              "duration": 407000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I click OK I should land on home page",
+            "result": {
+              "status": "failed",
+              "duration": 4081000000,
+              "error_message": "AssertionError: Timed out retrying after 4000ms: expected '<h5#logInModalLabel.modal-title>' to be 'visible'\n\nThis element `<h5#logInModalLabel.modal-title>` is not visible because its parent `<div#logInModal.modal.fade>` has CSS property: `display: none`\n    at Context.eval (https://www.demoblaze.com/__cypress/tests?p=cypress\\integration\\product.feature:424:30)\n    at Context.resolveAndRunStepDefinition (https://www.demoblaze.com/__cypress/tests?p=cypress\\integration\\product.feature:10842:9)\n    at Context.eval (https://www.demoblaze.com/__cypress/tests?p=cypress\\integration\\product.feature:10183:35)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

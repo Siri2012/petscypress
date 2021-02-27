@@ -1,0 +1,34 @@
+cypress run --record --key c16873c2-e234-4796-9924-0d12e7635081
+
+components: The header or footer components we can write in components page.
+
+pipeline script:
+
+pipeline {
+    agent any
+    stages {
+        stage('Checkout') {
+            steps {
+                echo 'Cloning'
+                checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/sridharbandi/cypressbdd.git']]])
+            }
+        }
+        stage('Install') {
+              steps {
+                  bat 'npm install'
+              }
+        }
+        stage('Test') {
+              steps {
+                  bat 'npm run cy:bdd'
+              }
+        }
+        stage('Generate report') {
+              steps {
+                  bat 'npm run cy:report'
+              }
+        }
+        stage('Publish report') {
+              steps {
+                  publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: 'cypress/cucumber-html', reportFiles: 'report.html', reportName: 'HTML Report', reportTitles: ''])
+              }

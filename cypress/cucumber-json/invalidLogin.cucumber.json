@@ -1,0 +1,132 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Invalid Login Attempts",
+    "line": 1,
+    "id": "invalid-login-attempts",
+    "tags": [],
+    "uri": "invalidLogin.feature",
+    "elements": [
+      {
+        "id": "invalid-login-attempts;invalid-login-attempts-by-users",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Invalid Login Attempts by Users",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I was on Sauce Demo site",
+            "result": {
+              "status": "passed",
+              "duration": 3930000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I logged in with \"standard_user\" \"\"",
+            "result": {
+              "status": "passed",
+              "duration": 688000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should see error message",
+            "result": {
+              "status": "passed",
+              "duration": 48000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "invalid-login-attempts;invalid-login-attempts-by-users",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Invalid Login Attempts by Users",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I was on Sauce Demo site",
+            "result": {
+              "status": "passed",
+              "duration": 180000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I logged in with \"standard_user\" \"secret_pass\"",
+            "result": {
+              "status": "passed",
+              "duration": 836000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should see error message",
+            "result": {
+              "status": "passed",
+              "duration": 31000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "invalid-login-attempts;invalid-login-attempts-by-users",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Invalid Login Attempts by Users",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I was on Sauce Demo site",
+            "result": {
+              "status": "passed",
+              "duration": 156000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I logged in with \"locked_out_user\" \"secret_sauce\"",
+            "result": {
+              "status": "passed",
+              "duration": 882000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should see error message",
+            "result": {
+              "status": "passed",
+              "duration": 36000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

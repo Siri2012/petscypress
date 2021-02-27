@@ -1,0 +1,202 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Sauce demo login",
+    "line": 1,
+    "id": "sauce-demo-login",
+    "tags": [],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "sauce-demo-login;login-to-sauce-demo",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Login to Sauce Demo",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I was on Sauce demo site",
+            "result": {
+              "status": "passed",
+              "duration": 5714000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I logged in with \"standard_user\" \"secret_sauce\"",
+            "result": {
+              "status": "passed",
+              "duration": 6139000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should be landed in products page",
+            "result": {
+              "status": "passed",
+              "duration": 27000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I logout",
+            "result": {
+              "status": "passed",
+              "duration": 665000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should see login page",
+            "result": {
+              "status": "passed",
+              "duration": 156000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Sauce demo shopping",
+    "line": 1,
+    "id": "sauce-demo-shopping",
+    "tags": [],
+    "uri": "shopping.feature",
+    "elements": [
+      {
+        "id": "sauce-demo-shopping;end-to-end-journey",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "End to End Journey",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I was on Sauce demo site",
+            "result": {
+              "status": "passed",
+              "duration": 688000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I logged in with \"standard_user\" \"secret_sauce\"",
+            "result": {
+              "status": "passed",
+              "duration": 2117000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should be landed in products page",
+            "result": {
+              "status": "passed",
+              "duration": 49000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I add Fleece jacket to the cart",
+            "result": {
+              "status": "passed",
+              "duration": 1838000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I checkout the product",
+            "result": {
+              "status": "passed",
+              "duration": 3476000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I see cart price should match product price",
+            "result": {
+              "status": "passed",
+              "duration": 26000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I submit personal information",
+            "result": {
+              "status": "passed",
+              "duration": 3225000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I confirm the product",
+            "result": {
+              "status": "passed",
+              "duration": 544000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I should see order confirmation",
+            "result": {
+              "status": "passed",
+              "duration": 308000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I logout from order confirmation",
+            "result": {
+              "status": "passed",
+              "duration": 1006000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I should see login page",
+            "result": {
+              "status": "passed",
+              "duration": 130000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "testFiles": "**/*.spec.js",
+    "chromeWebSecurity": false,
+    "defaultCommandTimeout": 10000,
+    "requestTimeout":10000,
+    "video": false,
+    "videoUploadOnPasses": false,
+    "experimentalSourceRewriting":false,
+    "experimentalRunEvents":false,
+    "failOnStatusCode": false,
+     "screenshotsFolder": "./cypress/snapshots/actual",
+  "trashAssetsBeforeRuns": true,
+    "reporter": "cypress-mochawesome-reporter",
+    "projectId": "y9a7gq"
+
+}
+
